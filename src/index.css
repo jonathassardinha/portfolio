@@ -1,0 +1,15 @@
+* {
+	line-height: 1.5;
+	font-display: optional;
+
+	scroll-behavior: auto;
+}
+
+body {
+	font-family: "Nunito Sans", sans-serif;
+	font-display: optional;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

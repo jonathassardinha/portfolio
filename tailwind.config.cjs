@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{html,tsx,ts}", "./index.html"],
   theme: {
     extend: {
+			backgroundImage: {
+				profilePic: "url('/profile-pic.webp')"
+			},
       colors: {
         primary: {
           light: "#fefae0",
