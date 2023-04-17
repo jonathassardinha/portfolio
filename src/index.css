@@ -1,13 +1,22 @@
 * {
 	line-height: 1.5;
-	font-display: optional;
 
 	scroll-behavior: auto;
 }
 
-body {
-	font-family: "Nunito Sans", sans-serif;
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+li {
 	font-display: optional;
+	font-family: "Nunito Sans", sans-serif;
 }
 
 @tailwind base;
